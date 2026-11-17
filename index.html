@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dotazník – Osada Jizera</title>
+  <script>
+    const formularAB = "https://forms.gle/YQmAykfQ8RXsosUr6";
+    const formularBA = "https://forms.gle/SWD9Cm8UPjPineJW9";
+
+    const cil = Math.random() < 0.5
+      ? formularAB
+      : formularBA;
+
+    window.location.replace(cil);
+  </script>
+</head>
+<body>
+  <p>Načítání dotazníku Osady Jizera…</p>
+</body>
+</html>
